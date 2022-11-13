@@ -1,0 +1,523 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.20f1 (41c4e627c95f) revision 4310246'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Enterprise; OS build 19044.2251; Version 2009; 64bit' Language: 'tr' Physical Memory: 7549 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.20f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/Muhammed Emin BARKOÇ/Desktop/2D-Metroidvania-Game/2D Metroidvania Game
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+65371
+Successfully changed project path to: C:/Users/Muhammed Emin BARKOÇ/Desktop/2D-Metroidvania-Game/2D Metroidvania Game
+C:/Users/Muhammed Emin BARKOÇ/Desktop/2D-Metroidvania-Game/2D Metroidvania Game
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 51.56 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.20f1 (41c4e627c95f)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.20f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Muhammed Emin BARKOÇ/Desktop/2D-Metroidvania-Game/2D Metroidvania Game/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1650 Ti (ID=0x1f95)
+    Vendor:   
+    VRAM:     3962 MB
+    Driver:   30.0.14.7219
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.20f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.20f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.20f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56800
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.20f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.026837 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 63.68 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  5.860 seconds
+Domain Reload Profiling:
+	ReloadAssembly (5863ms)
+		BeginReloadAssembly (59ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (663ms)
+			LoadAssemblies (55ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (183ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (337ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (64ms)
+				BeforeProcessingInitializeOnLoad (21ms)
+				ProcessInitializeOnLoadAttributes (104ms)
+				ProcessInitializeOnLoadMethodAttributes (138ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.019432 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 47.79 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.428 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1429ms)
+		BeginReloadAssembly (193ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (34ms)
+		EndReloadAssembly (1148ms)
+			LoadAssemblies (172ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (371ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (53ms)
+			SetupLoadedEditorAssemblies (433ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (48ms)
+				BeforeProcessingInitializeOnLoad (119ms)
+				ProcessInitializeOnLoadAttributes (242ms)
+				ProcessInitializeOnLoadMethodAttributes (13ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.14 seconds
+Refreshing native plugins compatible for Editor in 0.62 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2093 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 93.8 MB.
+System memory in use after: 93.8 MB.
+
+Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 2532.
+Total: 4.139300 ms (FindLiveObjects: 0.345300 ms CreateObjectMapping: 0.073900 ms MarkObjects: 3.630300 ms  DeleteObjects: 0.087300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Scenes
+  artifactKey: Guid(3279b4703e343ee4fb09ffe2fd8cec52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(3279b4703e343ee4fb09ffe2fd8cec52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db85a15f50485e17a9cfc45443c99a7b') in 0.042427 seconds 
+  Import took 0.046173 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000360 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa27944bdea339c97c39027c7eea529c') in 0.023373 seconds 
+  Import took 0.028649 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 580.290656 seconds.
+  path: Assets/_Udemy Metroidvania Assets/Art/Bomb.png
+  artifactKey: Guid(d53ed6ebb0b51fd4fa0911f86d46e2b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Udemy Metroidvania Assets/Art/Bomb.png using Guid(d53ed6ebb0b51fd4fa0911f86d46e2b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ddfa4a70f061ca9193f4b6170a1f4b2') in 0.173919 seconds 
+  Import took 0.178133 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000390 seconds.
+  path: Assets/_Udemy Metroidvania Assets/Art/Destructible Block.png
+  artifactKey: Guid(c955a6fc02d75d84bb5785d11375f384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Udemy Metroidvania Assets/Art/Destructible Block.png using Guid(c955a6fc02d75d84bb5785d11375f384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc5a1ade52ae1b467407f87784408758') in 0.017900 seconds 
+  Import took 0.021567 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/_Udemy Metroidvania Assets/Art/MetroExtras.png
+  artifactKey: Guid(a8e78cc783a43f24fa68e56c7426ed72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Udemy Metroidvania Assets/Art/MetroExtras.png using Guid(a8e78cc783a43f24fa68e56c7426ed72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '121dbe2184c5075cdc21b4e3e0d9a174') in 0.024233 seconds 
+  Import took 0.028605 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.905745 seconds.
+  path: Assets/_Udemy Metroidvania Assets/Art/Ansimuz/Warped/environment/environment-preview.png
+  artifactKey: Guid(caf172139417dff4bb041cfb4cc5e449) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Udemy Metroidvania Assets/Art/Ansimuz/Warped/environment/environment-preview.png using Guid(caf172139417dff4bb041cfb4cc5e449) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1eda8ec902bdbd6786d4cb2231399f4') in 0.028557 seconds 
+  Import took 0.032597 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.633657 seconds.
+  path: Assets/_Udemy Metroidvania Assets/Art/Ansimuz/Warped/environment/props/gate-01.png
+  artifactKey: Guid(16714d0a78d87694dab27f5dea2168b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Udemy Metroidvania Assets/Art/Ansimuz/Warped/environment/props/gate-01.png using Guid(16714d0a78d87694dab27f5dea2168b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cc0ba48a6448db15737b6b0d12409ac') in 0.019929 seconds 
+  Import took 0.024001 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000559 seconds.
+  path: Assets/_Udemy Metroidvania Assets/Art/Ansimuz/Warped/environment/props/gate-03.png
+  artifactKey: Guid(d097c58beffc45142a8ca1637e521559) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Udemy Metroidvania Assets/Art/Ansimuz/Warped/environment/props/gate-03.png using Guid(d097c58beffc45142a8ca1637e521559) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '514b53a0d9a0eaecade414ecad595453') in 0.028873 seconds 
+  Import took 0.036035 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000364 seconds.
+  path: Assets/_Udemy Metroidvania Assets/Art/Ansimuz/Warped/environment/props/gate-02.png
+  artifactKey: Guid(2207b3da58d400245867b2cdd4ef0ef3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Udemy Metroidvania Assets/Art/Ansimuz/Warped/environment/props/gate-02.png using Guid(2207b3da58d400245867b2cdd4ef0ef3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd89ff5e8418b950b95dd247fbd0119b8') in 0.028414 seconds 
+  Import took 0.033205 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000301 seconds.
+  path: Assets/_Udemy Metroidvania Assets/Art/Ansimuz/Warped/environment/props/stone.png
+  artifactKey: Guid(3ee479c4042974e4c965dcf60fdb9775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Udemy Metroidvania Assets/Art/Ansimuz/Warped/environment/props/stone.png using Guid(3ee479c4042974e4c965dcf60fdb9775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb0e195571036dac0b78831189f13a72') in 0.032896 seconds 
+  Import took 0.039298 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000516 seconds.
+  path: Assets/_Udemy Metroidvania Assets/Art/Ansimuz/Warped/environment/props/plant-small.png
+  artifactKey: Guid(775fcba6f707d174a9bddca546ac26d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Udemy Metroidvania Assets/Art/Ansimuz/Warped/environment/props/plant-small.png using Guid(775fcba6f707d174a9bddca546ac26d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e23aa48bb21b1cfbfe03e15cf0883617') in 0.031072 seconds 
+  Import took 0.035732 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000301 seconds.
+  path: Assets/_Udemy Metroidvania Assets/Art/Ansimuz/Warped/environment/props/stone-head.png
+  artifactKey: Guid(cf5c12d696b112f43b285df19bec2245) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Udemy Metroidvania Assets/Art/Ansimuz/Warped/environment/props/stone-head.png using Guid(cf5c12d696b112f43b285df19bec2245) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '404ab0e13b22f18e55a8e712d9d20637') in 0.068963 seconds 
+  Import took 0.072998 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000397 seconds.
+  path: Assets/_Udemy Metroidvania Assets/Art/Ansimuz/Warped/environment/props/plant-big.png
+  artifactKey: Guid(53eed5b382ea9294a85a61fd808b108f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Udemy Metroidvania Assets/Art/Ansimuz/Warped/environment/props/plant-big.png using Guid(53eed5b382ea9294a85a61fd808b108f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a21eef47ddbfac7cd2d79aa8f8b97e51') in 0.022325 seconds 
+  Import took 0.026139 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/_Udemy Metroidvania Assets/Art/Ansimuz/Warped/environment/props/stalactite.png
+  artifactKey: Guid(2426d71d8679f6a4d9c69b004186c951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Udemy Metroidvania Assets/Art/Ansimuz/Warped/environment/props/stalactite.png using Guid(2426d71d8679f6a4d9c69b004186c951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de40a99dd00d8ebf16143f9272b5fde3') in 0.068264 seconds 
+  Import took 0.072423 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.971047 seconds.
+  path: Assets/_Udemy Metroidvania Assets/Art/Ansimuz/Warped/environment/props/Materials/gate-01.mat
+  artifactKey: Guid(bcda689faea13aa49a820fff3e2753a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Udemy Metroidvania Assets/Art/Ansimuz/Warped/environment/props/Materials/gate-01.mat using Guid(bcda689faea13aa49a820fff3e2753a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff62208c85b69dbe1317e2c72d95fb40') in 0.086020 seconds 
+  Import took 0.089901 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.172254 seconds.
+  path: Assets/_Udemy Metroidvania Assets/Art/Ansimuz/Ghost/fire-ball.png
+  artifactKey: Guid(d762e3f43ad23c546ae0c3f2d6a4444a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Udemy Metroidvania Assets/Art/Ansimuz/Ghost/fire-ball.png using Guid(d762e3f43ad23c546ae0c3f2d6a4444a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81ce45df5daf09daf3ad8aeaac6a8117') in 0.026077 seconds 
+  Import took 0.030258 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/_Udemy Metroidvania Assets/Art/Ansimuz/Ghost/ghost-idle.png
+  artifactKey: Guid(9df4e92c959197f4b917e20604efc418) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Udemy Metroidvania Assets/Art/Ansimuz/Ghost/ghost-idle.png using Guid(9df4e92c959197f4b917e20604efc418) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49941f7aaf52341e10b8732f01345a1e') in 0.053287 seconds 
+  Import took 0.057029 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/_Udemy Metroidvania Assets/Art/Ansimuz/Ghost/ghost-vanish.png
+  artifactKey: Guid(088ef073608cd0b4f813e63957e4f58c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Udemy Metroidvania Assets/Art/Ansimuz/Ghost/ghost-vanish.png using Guid(088ef073608cd0b4f813e63957e4f58c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1aa4a440afd1848b2b72b342e5d4581a') in 0.048956 seconds 
+  Import took 0.052478 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/_Udemy Metroidvania Assets/Art/Ansimuz/Ghost/ghost-appears.png
+  artifactKey: Guid(b6182f8d4b1caf647978798079daedf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Udemy Metroidvania Assets/Art/Ansimuz/Ghost/ghost-appears.png using Guid(b6182f8d4b1caf647978798079daedf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0550d4bc17006a1926475ee4245292bf') in 0.156458 seconds 
+  Import took 0.159904 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000315 seconds.
+  path: Assets/_Udemy Metroidvania Assets/Art/Ansimuz/Ghost/ghost-shriek.png
+  artifactKey: Guid(7e4f969872f9f474eab9b22d1a1ec714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Udemy Metroidvania Assets/Art/Ansimuz/Ghost/ghost-shriek.png using Guid(7e4f969872f9f474eab9b22d1a1ec714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fdefd669ef78ef9658f308797386011') in 0.037775 seconds 
+  Import took 0.041260 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.006030 seconds.
+  path: Assets/_Udemy Metroidvania Assets/Art/Ansimuz/Warped/spritesheets/enemies/crab-idle.png
+  artifactKey: Guid(94672c82a939e214692c5058d496b38e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Udemy Metroidvania Assets/Art/Ansimuz/Warped/spritesheets/enemies/crab-idle.png using Guid(94672c82a939e214692c5058d496b38e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbb484d39e704248a4e605d5a310394a') in 0.045738 seconds 
+  Import took 0.049259 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/_Udemy Metroidvania Assets/Art/Ansimuz/Warped/spritesheets/enemies/crab-walk.png
+  artifactKey: Guid(2629ca9363595de4b9b1057668253b8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Udemy Metroidvania Assets/Art/Ansimuz/Warped/spritesheets/enemies/crab-walk.png using Guid(2629ca9363595de4b9b1057668253b8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ecaf2c6f0677d6d8f2b4a0e6e24d9ec') in 0.035437 seconds 
+  Import took 0.038770 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/_Udemy Metroidvania Assets/Art/Ansimuz/Warped/spritesheets/enemies/octopus.png
+  artifactKey: Guid(adac67d1d4d029b45a7d0b01e58fccda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Udemy Metroidvania Assets/Art/Ansimuz/Warped/spritesheets/enemies/octopus.png using Guid(adac67d1d4d029b45a7d0b01e58fccda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '651800fda0dcead5b9f6cd3ef74ee44b') in 0.042480 seconds 
+  Import took 0.047116 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000596 seconds.
+  path: Assets/_Udemy Metroidvania Assets/Art/Ansimuz/Warped/spritesheets/enemies/jumper-jump.png
+  artifactKey: Guid(496936feb96a91b4db4a865e581215c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Udemy Metroidvania Assets/Art/Ansimuz/Warped/spritesheets/enemies/jumper-jump.png using Guid(496936feb96a91b4db4a865e581215c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84bb644202679d98aa6e06511078ae1f') in 0.032118 seconds 
+  Import took 0.039355 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000458 seconds.
+  path: Assets/_Udemy Metroidvania Assets/Art/Ansimuz/Warped/spritesheets/enemies/jumper-idle.png
+  artifactKey: Guid(177ced63b0ffba5469c2842fd6f5d860) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Udemy Metroidvania Assets/Art/Ansimuz/Warped/spritesheets/enemies/jumper-idle.png using Guid(177ced63b0ffba5469c2842fd6f5d860) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a62483d40ea66f966862ecd3a696094') in 0.043248 seconds 
+  Import took 0.049476 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.293774 seconds.
+  path: Assets/_Udemy Metroidvania Assets/Art/Ansimuz/Warped/spritesheets/player/player-ball.png
+  artifactKey: Guid(09f3889801899e7438334d6231bec1e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Udemy Metroidvania Assets/Art/Ansimuz/Warped/spritesheets/player/player-ball.png using Guid(09f3889801899e7438334d6231bec1e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46459be9b46a7a8014373265f27848f3') in 0.029839 seconds 
+  Import took 0.033773 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/_Udemy Metroidvania Assets/Art/Ansimuz/Warped/spritesheets/player/player-stand.png
+  artifactKey: Guid(b6cbda95cd03a02438614c563174d494) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Udemy Metroidvania Assets/Art/Ansimuz/Warped/spritesheets/player/player-stand.png using Guid(b6cbda95cd03a02438614c563174d494) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d978115499211d6b3448559fce1bede') in 0.033124 seconds 
+  Import took 0.036900 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/_Udemy Metroidvania Assets/Art/Ansimuz/Warped/spritesheets/player/player-jump.png
+  artifactKey: Guid(d7ce5368cc180fa4496b7fdc89dc4a2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Udemy Metroidvania Assets/Art/Ansimuz/Warped/spritesheets/player/player-jump.png using Guid(d7ce5368cc180fa4496b7fdc89dc4a2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '458c326255bc04087ae639696321674a') in 0.042828 seconds 
+  Import took 0.046925 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000314 seconds.
+  path: Assets/_Udemy Metroidvania Assets/Art/Ansimuz/Warped/spritesheets/player/player-shoot-up.png
+  artifactKey: Guid(1c58685f60568244a949c780dbc2f5cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Udemy Metroidvania Assets/Art/Ansimuz/Warped/spritesheets/player/player-shoot-up.png using Guid(1c58685f60568244a949c780dbc2f5cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bffb539c585661e435257d48da2da6c7') in 0.026181 seconds 
+  Import took 0.030670 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/_Udemy Metroidvania Assets/Art/Ansimuz/Warped/spritesheets/player/player-idle.png
+  artifactKey: Guid(3607ff319a5a56141aa94c66e33ca304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Udemy Metroidvania Assets/Art/Ansimuz/Warped/spritesheets/player/player-idle.png using Guid(3607ff319a5a56141aa94c66e33ca304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9193b234d7e6757fcb0cb63b795f4f7b') in 0.043895 seconds 
+  Import took 0.047459 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/_Udemy Metroidvania Assets/Art/Ansimuz/Warped/spritesheets/player/player-run-shoot.png
+  artifactKey: Guid(016aa7470395b3e45b399a45110c52c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Udemy Metroidvania Assets/Art/Ansimuz/Warped/spritesheets/player/player-run-shoot.png using Guid(016aa7470395b3e45b399a45110c52c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcb61c2eeb4f8cae3426113ca7b6f745') in 0.055887 seconds 
+  Import took 0.059381 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.995885 seconds.
+  path: Assets/_Udemy Metroidvania Assets/Map/Map Sprites.png
+  artifactKey: Guid(0f2b0e5b82c79e64594de07798959872) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Udemy Metroidvania Assets/Map/Map Sprites.png using Guid(0f2b0e5b82c79e64594de07798959872) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '907f863e35ace3f31d6cb83e3e661239') in 0.032440 seconds 
+  Import took 0.036580 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.518379 seconds.
+  path: Assets/_Udemy Metroidvania Assets/Art/Ansimuz/Warped/spritesheets/Fx/explosion.png
+  artifactKey: Guid(e76c7f145bb12b642952d38accb586db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Udemy Metroidvania Assets/Art/Ansimuz/Warped/spritesheets/Fx/explosion.png using Guid(e76c7f145bb12b642952d38accb586db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ebcd7d7144ad3ef743ee0d7d919161c') in 0.033433 seconds 
+  Import took 0.037654 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000300 seconds.
+  path: Assets/_Udemy Metroidvania Assets/Art/Ansimuz/Warped/spritesheets/Fx/power-up.png
+  artifactKey: Guid(08f737e43c2490a44a8c91d96748b5af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Udemy Metroidvania Assets/Art/Ansimuz/Warped/spritesheets/Fx/power-up.png using Guid(08f737e43c2490a44a8c91d96748b5af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2040e70de1db08750270712dfae7d4a') in 0.141764 seconds 
+  Import took 0.144862 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000334 seconds.
+  path: Assets/_Udemy Metroidvania Assets/Art/Ansimuz/Warped/spritesheets/Fx/impact.png
+  artifactKey: Guid(138370a7b04d50d428c78b4821106fb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Udemy Metroidvania Assets/Art/Ansimuz/Warped/spritesheets/Fx/impact.png using Guid(138370a7b04d50d428c78b4821106fb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9dff8f4d55507c06fb020118c41af88') in 0.038385 seconds 
+  Import took 0.042435 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000320 seconds.
+  path: Assets/_Udemy Metroidvania Assets/Art/Ansimuz/Warped/spritesheets/Fx/shot.png
+  artifactKey: Guid(daa903a88b1dc524aa2f5ece96f3a1a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Udemy Metroidvania Assets/Art/Ansimuz/Warped/spritesheets/Fx/shot.png using Guid(daa903a88b1dc524aa2f5ece96f3a1a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac9b58bb08507e0e518bbd4483851c27') in 0.033481 seconds 
+  Import took 0.037163 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.725943 seconds.
+  path: Assets/_Udemy Metroidvania Assets/Font/Pixelnauts.ttf
+  artifactKey: Guid(7d9c2b8e757f21842b1076bb64bd84d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Udemy Metroidvania Assets/Font/Pixelnauts.ttf using Guid(7d9c2b8e757f21842b1076bb64bd84d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be1ae95913ef0ebdccea224d01a3e45a') in 0.051921 seconds 
+  Import took 0.055607 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.330058 seconds.
+  path: Assets/_Udemy Metroidvania Assets/Art/Ansimuz/Warped/environment/layers/background.png
+  artifactKey: Guid(1e0c7f5e74c2cbe449b9017b7a6987cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Udemy Metroidvania Assets/Art/Ansimuz/Warped/environment/layers/background.png using Guid(1e0c7f5e74c2cbe449b9017b7a6987cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dc93b56d4b5a12f6bfdc626d99d0d29') in 0.021372 seconds 
+  Import took 0.025346 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/_Udemy Metroidvania Assets/Art/Ansimuz/Warped/environment/layers/tilesets.png
+  artifactKey: Guid(8402c9d98d0976842b219430b7925690) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Udemy Metroidvania Assets/Art/Ansimuz/Warped/environment/layers/tilesets.png using Guid(8402c9d98d0976842b219430b7925690) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f0a27513d452bd16d5a7c158ea023fd') in 0.348603 seconds 
+  Import took 0.353659 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/_Udemy Metroidvania Assets/Art/Ansimuz/Warped/environment/layers/middleground-no-fungus.png
+  artifactKey: Guid(b79ba568424ed214eaf2a73172186748) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Udemy Metroidvania Assets/Art/Ansimuz/Warped/environment/layers/middleground-no-fungus.png using Guid(b79ba568424ed214eaf2a73172186748) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d8e48979674d371cd42f602bf7c8c98') in 0.033758 seconds 
+  Import took 0.038581 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000403 seconds.
+  path: Assets/_Udemy Metroidvania Assets/Art/Ansimuz/Warped/environment/layers/walls.png
+  artifactKey: Guid(f4d8d7395af26594298c3ecadcbcca17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Udemy Metroidvania Assets/Art/Ansimuz/Warped/environment/layers/walls.png using Guid(f4d8d7395af26594298c3ecadcbcca17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7b1a7da4bbc49cbd6db03a96b2d741b') in 0.107393 seconds 
+  Import took 0.112347 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/_Udemy Metroidvania Assets/Art/Ansimuz/Warped/environment/layers/middleground.png
+  artifactKey: Guid(c7ecf56d232314e42ba2cbe066ebcd80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Udemy Metroidvania Assets/Art/Ansimuz/Warped/environment/layers/middleground.png using Guid(c7ecf56d232314e42ba2cbe066ebcd80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afe6740b24597091eaab79601cbd1871') in 0.022728 seconds 
+  Import took 0.027208 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2240.138869 seconds.
+  path: Assets/_Udemy Metroidvania Assets/Art
+  artifactKey: Guid(2eb0208e6b145cd40b8fbc17cf0578a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Udemy Metroidvania Assets/Art using Guid(2eb0208e6b145cd40b8fbc17cf0578a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1e48a9d37ad1e9cead23e6d8c340313') in 0.097042 seconds 
+  Import took 0.103428 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.236240 seconds.
+  path: Assets/_Udemy Metroidvania Assets/Art/Ansimuz
+  artifactKey: Guid(b1911707ca0bea240b3f97ef03865a8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Udemy Metroidvania Assets/Art/Ansimuz using Guid(b1911707ca0bea240b3f97ef03865a8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b84f1c8b53a06ec54ae17c2124582131') in 0.007407 seconds 
+  Import took 0.011712 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.519405 seconds.
+  path: Assets/_Udemy Metroidvania Assets/Art/Ansimuz/Warped
+  artifactKey: Guid(3130db569d7754d479a5c80d10c6af17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Udemy Metroidvania Assets/Art/Ansimuz/Warped using Guid(3130db569d7754d479a5c80d10c6af17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e11db27aca4641f212cae8a4847a9ac') in 0.009580 seconds 
+  Import took 0.013658 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.832323 seconds.
+  path: Assets/_Udemy Metroidvania Assets/Art/Ansimuz/Warped/environment
+  artifactKey: Guid(8f6a0744340d7154bad8d0324dedb10c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Udemy Metroidvania Assets/Art/Ansimuz/Warped/environment using Guid(8f6a0744340d7154bad8d0324dedb10c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '498754cd73c97abb0d450ed9f2358032') in 0.009072 seconds 
+  Import took 0.014495 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.158381 seconds.
+  path: Assets/_Udemy Metroidvania Assets/Art/Ansimuz/Warped/spritesheets
+  artifactKey: Guid(f35cb7777a4d7a445ab502ba5912f284) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Udemy Metroidvania Assets/Art/Ansimuz/Warped/spritesheets using Guid(f35cb7777a4d7a445ab502ba5912f284) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06a14f4787b97b7ef829204bd4799bd2') in 0.009063 seconds 
+  Import took 0.014520 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.915953 seconds.
+  path: Assets/_Udemy Metroidvania Assets/Art/Ansimuz/Warped/spritesheets/Fx
+  artifactKey: Guid(7e6a5da75ffed6149ae902a621a34187) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Udemy Metroidvania Assets/Art/Ansimuz/Warped/spritesheets/Fx using Guid(7e6a5da75ffed6149ae902a621a34187) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '707dd5b02f2c50ab498ced87261382ca') in 0.010441 seconds 
+  Import took 0.014368 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.964590 seconds.
+  path: Assets/_Udemy Metroidvania Assets/Art/Ansimuz/Warped/spritesheets/player
+  artifactKey: Guid(8f4583703ea368c4381157c31f755979) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Udemy Metroidvania Assets/Art/Ansimuz/Warped/spritesheets/player using Guid(8f4583703ea368c4381157c31f755979) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37726d937a595308f64656c833aa4bd1') in 0.008896 seconds 
+  Import took 0.013666 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
