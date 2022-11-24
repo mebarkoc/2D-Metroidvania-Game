@@ -36,8 +36,9 @@ public class PlayerController : MonoBehaviour
     private float ballCounter;
 
     public Animator ballAnim;
-   
 
+    public Transform bombPoint;
+    public GameObject bomb;
 
     void Start()
     {
@@ -113,17 +114,25 @@ public class PlayerController : MonoBehaviour
             theRB.velocity = new Vector2(theRB.velocity.x, jumpForce);
         }
 
-        //shoting
+        //shooting
         if (Input.GetButtonDown("Fire1"))
         {
-            Instantiate(shotToFire, shotPoint.position, shotPoint.rotation).moveDir
-            =
-            new Vector2(transform.localScale.x, 0f);
+            if (standing.activeSelf)
+            {
+
+                Instantiate(shotToFire, shotPoint.position, shotPoint.rotation).moveDir
+                =
+                new Vector2(transform.localScale.x, 0f);
 
 
-            anim.SetTrigger("shotFire");
+                anim.SetTrigger("shotFire");
+            }
+            else if (ball.activeSelf)
+            {
+                Instantiate(bomb, bombPoint.position, bombPoint.rotation);
+            }
         }
-
+        
 
         // ball mode 
         if (!ball.activeSelf)
