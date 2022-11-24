@@ -29,7 +29,14 @@ public class PlayerController : MonoBehaviour
     public Color afterImageColor;
 
     public float waitAfterDashing;
-    private float dashRechargeCounter; 
+    private float dashRechargeCounter;
+
+    public GameObject standing, ball;
+    public float waitToBall;
+    private float ballCounter;
+
+    public Animator ballAnim;
+   
 
 
     void Start()
@@ -39,13 +46,14 @@ public class PlayerController : MonoBehaviour
     
     void Update()
     {
+        // player dash
         if (dashCounter > 0)
         {
             dashRechargeCounter -= Time.deltaTime;
         }
         else
         {
-            if (Input.GetButtonDown("Fire2"))
+            if (Input.GetButtonDown("Fire2") && standing.activeSelf)
             {
                 dashCounter = dashTime;
 
@@ -105,25 +113,64 @@ public class PlayerController : MonoBehaviour
             theRB.velocity = new Vector2(theRB.velocity.x, jumpForce);
         }
 
-        
+        //shoting
         if (Input.GetButtonDown("Fire1"))
         {
             Instantiate(shotToFire, shotPoint.position, shotPoint.rotation).moveDir
             =
             new Vector2(transform.localScale.x, 0f);
 
+
             anim.SetTrigger("shotFire");
         }
 
 
+        // ball mode 
+        if (!ball.activeSelf)
+        {
+            if (Input.GetAxisRaw("Vertical") < -.9f)
+            {
+                ballCounter -= Time.deltaTime;
 
+                if (ballCounter <= 0)
+                {
+                    ball.SetActive(true);
+                    standing.SetActive(false);
+                }
+            }
+            else
+            {
+                ballCounter = waitToBall;
+            }
+        }
+        else
+        {
+            if (Input.GetAxisRaw("Vertical") > -.9f)
+            {
+                ballCounter -= Time.deltaTime;
 
+                if (ballCounter <= 0)
+                {
+                    ball.SetActive(false);
+                    standing.SetActive(true);
+                }
+            }
+            else
+            {
+                ballCounter = waitToBall;
+            }
+        }
 
-
-
-
-        anim.SetBool("inOnGround", isOnGround);
-        anim.SetFloat("speed", Mathf.Abs(theRB.velocity.x));
+        if (standing.activeSelf)
+        {
+            anim.SetBool("inOnGround", isOnGround);
+            anim.SetFloat("speed", Mathf.Abs(theRB.velocity.x));
+        }
+       
+        if (ball.activeSelf)
+        {
+            ballAnim.SetFloat("speed", Mathf.Abs(theRB.velocity.x));
+        }
     }
 
 
