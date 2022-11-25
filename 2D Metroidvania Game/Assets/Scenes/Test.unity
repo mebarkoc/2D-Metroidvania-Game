@@ -2349,7 +2349,7 @@ Animator:
   m_GameObject: {fileID: 1308706109}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: fd678e1588985a34c81d7ba6516c25dc, type: 2}
+  m_Controller: {fileID: 9100000, guid: a3b2327e8034a1942a540f28530aa2e7, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -2452,7 +2452,7 @@ MonoBehaviour:
   waitToBall: 0.5
   ballAnim: {fileID: 1308706113}
   bombPoint: {fileID: 1109935809}
-  bomb: {fileID: 8413684437858233167, guid: 5bb943be2ef13ad499abff7d6ee9e732, type: 3}
+  bomb: {fileID: 7379193845458411701, guid: 5bb943be2ef13ad499abff7d6ee9e732, type: 3}
 --- !u!212 &1370947063
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2614,7 +2614,7 @@ Animator:
   m_GameObject: {fileID: 1896223260}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 1220e2f56f8e4cb4ba2c662d07846bed, type: 2}
+  m_Controller: {fileID: 9100000, guid: 33997e86e0e11584b84efe2318f6f61d, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0

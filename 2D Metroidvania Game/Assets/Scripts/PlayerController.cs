@@ -172,7 +172,7 @@ public class PlayerController : MonoBehaviour
 
         if (standing.activeSelf)
         {
-            anim.SetBool("inOnGround", isOnGround);
+            anim.SetBool("isOnGround", isOnGround);
             anim.SetFloat("speed", Mathf.Abs(theRB.velocity.x));
         }
        
