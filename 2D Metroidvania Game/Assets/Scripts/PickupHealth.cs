@@ -19,7 +19,7 @@ public class PickupHealth : MonoBehaviour
                 Instantiate(pickupEffect, transform.position, Quaternion.identity);
             }
 
-            Destroy(gameObject);
+            Destroy(gameObject); 
         }
     }
 }
