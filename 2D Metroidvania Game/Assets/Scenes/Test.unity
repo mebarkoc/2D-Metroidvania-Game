@@ -249,7 +249,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 85.040764, y: 0.10501766}
+  m_Offset: {x: 84.78997, y: 0.10501766}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -260,7 +260,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 209.98366, y: 20.31331}
+  m_Size: {x: 209.48207, y: 20.31331}
   m_EdgeRadius: 0
 --- !u!4 &146706311
 Transform:
@@ -500,6 +500,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   healthSlider: {fileID: 1956171933}
+  fadeScreen: {fileID: 1117321698}
+  fadeSpeed: 2
 --- !u!114 &203558052
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -575,6 +577,7 @@ RectTransform:
   - {fileID: 1965592211}
   - {fileID: 1956171934}
   - {fileID: 886492558}
+  - {fileID: 1117321697}
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -7677,7 +7680,7 @@ GameObject:
   - component: {fileID: 541043625}
   - component: {fileID: 541043624}
   - component: {fileID: 541043626}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Door
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7709,7 +7712,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 541043623}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 188.02, y: -2.52, z: 0}
+  m_LocalPosition: {x: 188.02, y: -2.52, z: 0.02}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 545193974}
@@ -7754,7 +7757,7 @@ GameObject:
   - component: {fileID: 545193974}
   - component: {fileID: 545193977}
   - component: {fileID: 545193975}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8467,6 +8470,81 @@ Transform:
   m_Father: {fileID: 1370947061}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1117321696
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1117321697}
+  - component: {fileID: 1117321699}
+  - component: {fileID: 1117321698}
+  m_Layer: 5
+  m_Name: Fade Screen
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1117321697
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1117321696}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 203558055}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1117321698
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1117321696}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 0}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1117321699
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1117321696}
+  m_CullTransparentMesh: 1
 --- !u!1 &1241776628
 GameObject:
   m_ObjectHideFlags: 0
@@ -8633,7 +8711,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1354177907}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Exit Point
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8704,7 +8782,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1370947059}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 169.35, y: -2.18, z: 0}
+  m_LocalPosition: {x: 182.87, y: -2.28, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1896223261}
@@ -9391,7 +9469,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1896223260}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.8, y: 0.28, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1370947061}
